@@ -1,0 +1,55 @@
+
+
+body {
+  overflow-x: hidden;
+}
+.sumCard {
+  display: none;
+}
+.card:hover  {
+  filter:brightness(150%);
+  border: 4px solid rgb(18, 203, 30);
+}
+.card:hover .sumCard {
+  color: aqua;
+
+  display: block;
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  border-radius: 3px;
+  min-height: 30%;
+}
+.card:hover .favorite_icon {
+  color: #f50057;
+}
+.card:hover .recommend_icon {
+  color: gainsboro;
+}
+
+/* SideBar NavLink */
+#sidebar nav #navLinkk  {
+  background: #e3e3e3;
+  text-decoration: none;
+  color: aquamarine;
+}
+
+#navLinkk:link{
+  color:blue !important; 
+}
+#navLinkk:visited{
+  color: cyan !important;
+}
+#navLinkk:hover{
+  color: red;
+}
+#navLinkk:active{
+  color:yellow;
+}
+
+ a .isActive {
+  background: hsl(224, 98%, 58%);
+  color: white;
+}
+
+
